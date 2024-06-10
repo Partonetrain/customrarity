@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "customrarity",
+	"version": "${version}",
+	"name": "customrarity",
+	"description": "Allows pack makers to define Item Rarity by either NBT or config file.",
+	"authors": [
+		"Partonetrain"
+	],
+	"contact": {
+		"sources": "https://github.com/partonetrain/itemrarity"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/customrarity/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"info.partonetrain.customrarity.Customrarity"
+		],
+		"client": [
+			"info.partonetrain.customrarity.CustomrarityClient"
+		],
+		"modmenu": [
+			"info.partonetrain.customrarity.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"customrarity.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
