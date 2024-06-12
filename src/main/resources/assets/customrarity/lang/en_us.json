@@ -1,4 +1,5 @@
 {
+  "text.autoconfig.customrarity.title": "CustomRarity",
   "text.autoconfig.customrarity.option.commons": "Common Items",
   "text.autoconfig.customrarity.option.uncommons": "Uncommon Items",
   "text.autoconfig.customrarity.option.rares": "Rare Items",
